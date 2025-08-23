@@ -1,75 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Internal Restlessness Scale (IRS) Assessment</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <h1>Internal Restlessness Scale (IRS)</h1>
-            <p class="subtitle">Developed by Dr. Lisa Weyandt</p>
-        </header>
+      <header class="header">
+        <h1>Internal Restlessness Scale (IRS)</h1>
 
-        <div class="disclaimer">
-            <p>This assessment is for educational and research purposes only. It is not a diagnostic tool.</p>
-            <p>For clinical use, please consult with a qualified professional.</p>
-        </div>
+        <p class="subtitle">
+          Developed by
+          <a
+            href="https://www.researchgate.net/profile/Lisa-Weyandt-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Dr. Lisa Weyandt</a
+          >
+        </p>
+        <p class="subtitle">
+          Web Application developed by
+          <a
+            href="https://github.com/wkdkavishka"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WKDKavishka</a
+          >
+        </p>
+      </header>
 
-        <div id="progress-container">
-            <div id="progress-bar"></div>
-            <div id="progress-text">Question 1 of 24</div>
-        </div>
+      <div class="disclaimer">
+        <p>
+          This assessment is for educational and research purposes only. It is
+          not a diagnostic tool.
+        </p>
+        <p>For clinical use, please consult with a qualified professional.</p>
+      </div>
 
-        <div id="question-container">
-            <div id="question-text"></div>
-            <div class="slider-container">
-                <div class="scale-labels">
-                    <span>Not at all true</span>
-                    <span>Very true</span>
-                </div>
-                <input type="range" min="1" max="7" value="4" class="slider" id="response-slider">
-                <div class="slider-ticks">
-                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>
-                </div>
-            </div>
-            <div class="button-container">
-                <button id="prev-btn" class="btn" disabled>Previous</button>
-                <button id="next-btn" class="btn btn-primary">Next</button>
-            </div>
-        </div>
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+        <div id="progress-text">Question 1 of 24</div>
+      </div>
 
-        <div id="result-container" class="hidden">
-            <h2>Your Results</h2>
-            <div class="score-container">
-                <div class="score-bar">
-                    <div id="score-fill" class="score-fill"></div>
-                </div>
-                <div id="score-text" class="score-text"></div>
-            </div>
-            <div id="interpretation" class="interpretation"></div>
-            <button id="restart-btn" class="btn btn-primary">Take Test Again</button>
-            
-            <div class="score-info">
-                <h3>Score Interpretation</h3>
-                <ul>
-                    <li><strong>24-69:</strong> Typical range for neurotypical adults</li>
-                    <li><strong>70-89:</strong> Borderline range, may indicate subclinical symptoms</li>
-                    <li><strong>90-110:</strong> Typical range for adults with ADHD</li>
-                    <li><strong>110-168:</strong> High range, often seen in significant ADHD symptoms</li>
-                </ul>
-            </div>
+      <div id="question-container">
+        <div id="question-text"></div>
+        <div class="slider-container">
+          <div class="scale-labels">
+            <span>Not at all true</span>
+            <span>Very true</span>
+          </div>
+          <input
+            type="range"
+            min="1"
+            max="7"
+            value="4"
+            class="slider"
+            id="response-slider"
+          />
+          <div class="slider-ticks">
+            <span>1</span><span>2</span><span>3</span><span>4</span
+            ><span>5</span><span>6</span><span>7</span>
+          </div>
         </div>
+        <div class="button-container">
+          <button id="prev-btn" class="btn" disabled>Previous</button>
+          <button id="next-btn" class="btn btn-primary">Next</button>
+        </div>
+      </div>
+
+      <div id="result-container" class="hidden">
+        <h2>Your Results</h2>
+        <div class="score-container">
+          <div class="score-bar">
+            <div id="score-fill" class="score-fill"></div>
+          </div>
+          <div id="score-text" class="score-text"></div>
+        </div>
+        <div id="interpretation" class="interpretation"></div>
+        <button id="restart-btn" class="btn btn-primary">
+          Take Test Again
+        </button>
+
+        <div class="score-info">
+          <h3>Score Interpretation</h3>
+          <ul>
+            <li>
+              <strong>24-69:</strong> Typical range for neurotypical adults
+            </li>
+            <li>
+              <strong>70-89:</strong> Borderline range, may indicate subclinical
+              symptoms
+            </li>
+            <li><strong>90-110:</strong> Typical range for adults with ADHD</li>
+            <li>
+              <strong>110-168:</strong> High range, often seen in significant
+              ADHD symptoms
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
-        <p>This implementation is for educational and research purposes only.</p>
-        <p>Original scale developed by Dr. Lisa Weyandt</p>
+      <p>This implementation is for educational and research purposes only.</p>
+      <p>Original scale developed by Dr. Lisa Weyandt</p>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

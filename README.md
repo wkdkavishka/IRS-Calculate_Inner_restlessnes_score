@@ -1,5 +1,9 @@
 # Internal Restlessness Scale (IRS) Calculator
 
+# Web URL
+
+https://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score/
+
 This is a TypeScript implementation of the Internal Restlessness Scale (IRS) developed by Dr. Lisa Weyandt. The scale is designed to measure inner restlessness, which is often associated with ADHD symptoms.
 
 ## About the IRS

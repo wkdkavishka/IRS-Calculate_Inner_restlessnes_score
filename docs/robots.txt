@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: http://wkdkavishka.github.io
-
-# Sitemaps
-Sitemap: http://wkdkavishka.github.io/sitemap.xml

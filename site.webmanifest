@@ -1,0 +1,27 @@
+{
+  "name": "IRS Assessment Tool",
+  "short_name": "IRS Test",
+  "description": "Internal Restlessness Scale (IRS) Assessment for ADHD symptoms",
+  "start_url": "/IRS-Calculate_Inner_restlessnes_score/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a6fa5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "og-image.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpg"
+    }
+  ]
+}

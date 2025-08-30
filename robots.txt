@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://wkdkavishka.github.io/IRS-Calculate-Inner-Restlessnes-Scaling-score/sitemap.xml
+Sitemap: https://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score/sitemap.xml
 
 # Crawl-delay: 10  # Uncomment if needed to limit crawl rate
 

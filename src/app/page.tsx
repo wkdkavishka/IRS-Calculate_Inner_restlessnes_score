@@ -13,8 +13,8 @@ export default function Page() {
     return (
         <div className="min-h-screen text-gray-800 transition-colors duration-300">
             <Head>
-                <title>{siteData.personal.name} | Software Engineer</title>
-                <meta name={siteData.personal.name} content={siteData.personal.name} />
+                <title>{siteData.project.name} | Software Engineer</title>
+                <meta name={siteData.project.name} content={siteData.project.name} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

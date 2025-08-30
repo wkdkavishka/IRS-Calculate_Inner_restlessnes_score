@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true, // Required for static export
     },
-    distDir: 'dist',
+    distDir: 'docs',
 };
 
 export default nextConfig;

@@ -88,7 +88,7 @@ export const NavigationComp = () => {
                                 onClick={() => scrollToSection('home')}
                                 className="cursor-pointer bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent transition-opacity hover:opacity-80"
                             >
-                                {siteData.personal.name}
+                                {siteData.project.name}
                             </span>
                         </div>
                     </div>

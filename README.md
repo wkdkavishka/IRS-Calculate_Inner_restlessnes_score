@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Internal Restlessness Scale (IRS) Assessment Tool
 
-## Getting Started
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-First, run the development server:
+## Web Application
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 [Access the IRS Assessment Tool](https://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A TypeScript/JavaScript implementation of the Internal Restlessness Scale (IRS) developed by Dr. Lisa Weyandt. This web-based tool provides a user-friendly interface for self-assessment of inner restlessness, which is often associated with ADHD symptoms in adults.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📊 About the IRS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The Internal Restlessness Scale is a validated 24-item self-report measure that assesses inner restlessness, a core symptom of ADHD in adults. This implementation provides:
 
-## Learn More
+- Instant scoring and interpretation
+- Mobile-responsive design
+- Privacy-focused (all processing happens in your browser)
+- No data collection
 
-To learn more about Next.js, take a look at the following resources:
+### 📈 Score Interpretation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Score Range | Interpretation                                      |
+| ----------- | --------------------------------------------------- |
+| 24-69       | Typical range for neurotypical adults               |
+| 70-89       | Borderline range, may indicate subclinical symptoms |
+| 90-110      | Typical range for adults with ADHD                  |
+| 110-168     | High range, often seen in significant ADHD symptoms |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Features
 
-## Deploy on Vercel
+- **Fast & Lightweight**: Optimized for performance
+- **Accessible**: Designed with WCAG guidelines in mind
+- **Progressive Web App**: Can be installed on your device
+- **No Tracking**: Your data never leaves your browser
+- **Print & Save**: Option to print or save your results
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚠️ Important Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- This tool is for **educational and research purposes only**
+- Not a substitute for professional medical advice, diagnosis, or treatment
+- The IRS should not be used as a standalone diagnostic tool
+- Always seek the advice of a qualified healthcare provider with any questions
+
+## 🔍 Research and Attribution
+
+The Internal Restlessness Scale was developed by Dr. Lisa Weyandt and colleagues. For more information about her work, please visit:
+
+- [ResearchGate Profile](https://www.researchgate.net/profile/Lisa-Weyandt-2)
+- [Google Scholar](https://scholar.google.com/citations?user=qI1AiJ0AAAAJ&hl=en)
+
+## 📝 Technical Details
+
+- Built with vanilla JavaScript/TypeScript
+- No external dependencies
+- Responsive design works on all devices
+- Optimized for performance and accessibility
+
+## 📜 License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+The IRS scale is the intellectual property of Dr. Lisa Weyandt and her colleagues. Please respect the original authors' rights and use this scale responsibly.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+## 📧 Contact
+
+For questions or feedback, please [open an issue](https://github.com/wkdkavishka/IRS-Calculate_Inner_restlessnes_score/issues).
+
+## how to run this project
+
+1. clone this repository
+2. navigate to the project directory
+3. run `npm install` or `yarn install` to install dependencies
+4. run `npm run dev` or `yarn dev` to start the development server
+5. open [http://localhost:3000](http://localhost:3000) in your browser
+
+## how to deploy this project
+
+1. run `npm run build` or `yarn build` to build the project
+2. run `npm run start` or `yarn start` to start the production server
+3. open [http://localhost:3000](http://localhost:3000) in your browser

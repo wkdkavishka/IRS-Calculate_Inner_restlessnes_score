@@ -1,15 +1,5 @@
 import { IconType } from 'react-icons';
-import {
-    FaReact,
-    FaGithub,
-    FaLinkedin,
-    FaCode,
-    FaMobileAlt,
-    FaCloud,
-    FaPalette,
-    FaFacebook,
-    FaWhatsapp,
-} from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 export interface Skill {
     name: string;
@@ -48,7 +38,7 @@ export interface TeamMemberCarouselCompIntf {
 }
 
 // personel
-export interface PersonalData {
+export interface ProjectData {
     name: string;
     title: string;
     location: string;
@@ -66,16 +56,14 @@ export interface SocialData {
 }
 
 export interface SiteData {
-    personal: PersonalData;
-    services: Skill[];
-    projects: CardCompIntf[];
+    project: ProjectData;
+    personal: ProjectData;
     socialLinks: SocialData[];
-    teamMembers: TeamMemberCarouselCompIntf[];
 }
 
 // Create the site data with proper typing
 const siteData: SiteData = {
-    personal: {
+    project: {
         name: 'W.K.D.Kavishka',
         title: 'Software Engineer | DevOps Engineer',
         location: 'Colombo, Sri Lanka',
@@ -90,125 +78,20 @@ const siteData: SiteData = {
         ],
         resumeUrl: '/resume.pdf',
     },
-    services: [
-        {
-            name: 'Web Applications',
-            description:
-                'Custom web applications built with modern technologies like React, Next.js, and TypeScript',
-            icon: FaReact,
-        },
-        {
-            name: 'Custom Software Solutions',
-            description:
-                'Tailored software solutions designed to meet your specific business needs',
-            icon: FaCode,
-        },
-        {
-            name: 'Mobile Apps (Android & iOS)',
-            description: 'Cross-platform mobile applications for both Android and iOS platforms',
-            icon: FaMobileAlt,
-        },
-        {
-            name: 'Cloud Services',
-            description: 'Cloud infrastructure setup, deployment, and management',
-            icon: FaCloud,
-        },
-        {
-            name: 'UI/UX Design',
-            description: 'Beautiful and intuitive user interfaces with exceptional user experience',
-            icon: FaPalette,
-        },
-    ],
-    projects: [
-        {
-            id: 'irs-calculator',
-            title: 'ADHD Self-Assessment Tool (Sort Of) test',
-            description:
-                'An interactive Internal Restlessness Scale (IRS) assessment tool that helps evaluate ADHD-related inner restlessness. Features a responsive questionnaire with instant results and detailed insights.',
-            tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Mental Health'],
-            link: 'https://wkdkavishka.github.io/irs',
-            github: 'https://github.com/wkdkavishka/IRS-Calculate_Inner_restlessnes_score',
-            image: [
-                '/images/projects/irs-calculator/1.png',
-                '/images/projects/irs-calculator/2.png',
-                '/images/projects/irs-calculator/3.png',
-                '/images/projects/irs-calculator/4.png',
-            ],
-        },
-        {
-            id: 'wkdkavishka-vue',
-            title: 'My old Portfolio Template',
-            description:
-                'A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration. Built with Next.js, TypeScript, and MongoDB.',
-            tags: ['Next.js', 'TypeScript', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-            link: 'https://ecommerce-demo.wkdkavishka.vercel.app',
-            github: 'https://github.com/wkdkavishka/ecommerce-platform',
-            image: [
-                '/images/projects/wkdkavishka-vue/1.png',
-                '/images/projects/wkdkavishka-vue/2.png',
-                '/images/projects/wkdkavishka-vue/3.png',
-                '/images/projects/wkdkavishka-vue/4.png',
-            ],
-        },
-    ],
-    teamMembers: [
-        {
-            id: 'member-1',
-            name: 'Alex Johnson',
-            role: 'Senior Developer',
-            company: 'TechCorp',
-            image: '/images/team/member-1.jpg',
-            testimonial:
-                'Working with WKD was a fantastic experience. Their attention to detail and problem-solving skills are exceptional.',
-            social: {
-                linkedin: '#',
-                twitter: '#',
-                github: '#',
-            },
-        },
-        {
-            id: 'member-2',
-            name: 'Sarah Williams',
-            role: 'Product Manager',
-            company: 'InnovateX',
-            image: '/images/team/member-2.jpg',
-            testimonial:
-                "One of the most dedicated developers I've worked with. Delivered beyond expectations on every project.",
-            social: {
-                linkedin: '#',
-                twitter: '#',
-                github: '#',
-            },
-        },
-        {
-            id: 'member-3',
-            name: 'Michael Chen',
-            role: 'CTO',
-            company: 'StartUpHub',
-            image: '/images/team/member-3.jpg',
-            testimonial:
-                'Technical expertise and professionalism at its best. Highly recommended for any complex web development work.',
-            social: {
-                linkedin: '#',
-                twitter: '#',
-                github: '#',
-            },
-        },
-        {
-            id: 'member-4',
-            name: 'Emily Rodriguez',
-            role: 'UI/UX Designer',
-            company: 'DesignMasters',
-            image: '/images/team/member-4.jpg',
-            testimonial:
-                'Collaborating with WKD was seamless. They understand design principles and implement them perfectly.',
-            social: {
-                linkedin: '#',
-                twitter: '#',
-                github: '#',
-            },
-        },
-    ],
+    personal: {
+        name: 'W.K.D.Kavishka',
+        title: 'Software Engineer | DevOps Engineer',
+        location: 'Colombo, Sri Lanka',
+        email: 'w.k.d.kavishka@gmail.com',
+        profileImage: '/images/profile.webp',
+        about: [
+            'Experienced Software Engineer with a passion for creating efficient and scalable applications.',
+            'Skilled in full-stack development and cloud infrastructure.',
+            'Committed to continuous learning and staying up-to-date with the latest technologies.'
+        ],
+        resumeUrl: '/resume.pdf',
+    },
+
     socialLinks: [
         {
             name: 'GitHub',

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: http://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score
+Host: http://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score/
 
 # Sitemaps
 Sitemap: http://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score/sitemap.xml

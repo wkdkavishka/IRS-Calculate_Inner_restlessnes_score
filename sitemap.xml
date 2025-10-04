@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap><loc>http://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score/sitemap-0.xml</loc></sitemap>
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score</loc>
+<lastmod>2025-10-04T17:00:04.727Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://wkdkavishka.github.io/IRS-Calculate_Inner_restlessnes_score/irs</loc>
+<lastmod>2025-10-04T17:00:04.727Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+</urlset>
